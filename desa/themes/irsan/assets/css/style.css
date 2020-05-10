@@ -1,0 +1,16 @@
+@media screen and (max-width: 470px) {
+
+    #undefined_forcefullwidth,
+    .tp-fullwidth-forcer,
+    .slider-style,
+    .rev_slider_wrapper,
+    section->div->.tp-simpleresponsive,
+    .revslider-initialised {
+        max-height: 300px !important;
+        height: 300px !important;
+    }
+
+    .section-padding {
+        padding: 10px 0;
+    }
+}

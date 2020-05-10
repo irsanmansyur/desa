@@ -1,0 +1,1 @@
+$('.form-check-label').addClass("fa fa-check");
