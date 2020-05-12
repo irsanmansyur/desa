@@ -13,13 +13,12 @@
 // Data Konfigurasi MySQL yang disesuaikan
 
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'root';
-$db['default']['password'] = '';
-$db['default']['database'] = 'desa';
+$db['default']['username'] = 'dprdmksc_irsan';
+$db['default']['password'] = 'irsaN@123';
+$db['default']['database'] = 'dprdmksc_desa';
 
 /*
 | Untuk setting koneksi database 'Strict Mode'
 | Sesuaikan dengan ketentuan hosting
-*/ 
+*/
 $db['default']['stricton'] = TRUE;
-?>

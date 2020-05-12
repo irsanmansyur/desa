@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
 /*
 | -------------------------------------------------------------------
@@ -75,16 +75,13 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $konfigurasi_db = KonfigurasiDatabase();
-if (is_file($konfigurasi_db)) 
-{
-  include($konfigurasi_db);
-}
-else
-{
+if (is_file($konfigurasi_db)) {
+	include($konfigurasi_db);
+} else {
 	$db['default']['hostname'] = 'localhost';
-	$db['default']['username'] = 'root';
-	$db['default']['password'] = '';
-	$db['default']['database'] = 'desa';
+	$db['default']['username'] = 'dprdmksc_irsan';
+	$db['default']['password'] = 'irsaN@123';
+	$db['default']['database'] = 'dprdmksc_desa';
 	$db['default']['stricton'] = TRUE;
 }
 $db['default']['dbdriver'] = 'mysqli';
@@ -101,4 +98,3 @@ $db['default']['encrypt'] = FALSE;
 $db['default']['compress'] = FALSE;
 $db['default']['failover'] = array();
 $db['default']['save_queries'] = TRUE;
-	
