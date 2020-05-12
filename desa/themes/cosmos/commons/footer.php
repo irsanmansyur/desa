@@ -1,15 +1,15 @@
-<?php  if(!defined('BASEPATH')) exit('No direct script access allowed'); ?>
+<?php if (!defined('BASEPATH')) exit('No direct script access allowed'); ?>
 
 <footer>
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
 				<div class="logo">
-				<img src="<?= LogoDesa($desa['logo']) ?>" alt="<?= ucfirst($this->setting->sebutan_desa).' '.ucwords($desa['nama_desa']) ?>" class="img-fluid">
+					<img src="<?= LogoDesa($desa['logo']) ?>" alt="<?= ucfirst($this->setting->sebutan_desa) . ' ' . ucwords($desa['nama_desa']) ?>" class="img-fluid">
 				</div>
 				<div class="detail">
 					<span>
-						Pemerintah <?= ucfirst($this->setting->sebutan_desa).' '.ucwords($desa['nama_desa']) ?>
+						Pemerintah <?= ucfirst($this->setting->sebutan_desa) . ' ' . ucwords($desa['nama_desa']) ?>
 					</span>
 					<span>
 						<?= ucfirst($this->setting->sebutan_kecamatan_singkat) ?>
@@ -25,8 +25,8 @@
 				</div>
 				<div class="copyright mt-3">
 					<span>&copy; <?= date('Y') ?> - Hak Cipta dilindungi Undang-Undang.</span>
-					<span>Tema <a href="https://github.com/dikisiswanto/OpenSID-Cosmos/">Cosmos</a> oleh <a href="https://dikisiswanto.github.io">Diki Siswanto</a></span>
-					<span>Ditenagai oleh <a href="https://github.com/OpenSID/OpenSID">OpenSID</a> <?= AmbilVersi(); ?> yang dikembangkan oleh <a href="https://www.facebook.com/groups/OpenSID/">Komunitas OpenSID</a></span>
+					<!-- <span>Tema <a href="https://github.com/dikisiswanto/OpenSID-Cosmos/">Cosmos</a> oleh <a href="https://dikisiswanto.github.io">Diki Siswanto</a></span> -->
+					<!-- <span>Ditenagai oleh <a href="https://github.com/OpenSID/OpenSID">OpenSID</a> <?= AmbilVersi(); ?> yang dikembangkan oleh <a href="https://www.facebook.com/groups/OpenSID/">Komunitas OpenSID</a></span> -->
 				</div>
 			</div>
 		</div>
